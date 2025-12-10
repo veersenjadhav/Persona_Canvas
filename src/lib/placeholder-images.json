@@ -1,3 +1,64 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "profile_picture",
+      "description": "A professional headshot of a person.",
+      "imageUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjUyMzU4NTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional portrait"
+    },
+    {
+      "id": "project_1",
+      "description": "Screenshot of a modern web application dashboard.",
+      "imageUrl": "https://images.unsplash.com/photo-1758846946048-67de28f6bc8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3ZWIlMjBkYXNoYm9hcmR8ZW58MHx8fHwxNzY1MjcyNzUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "web dashboard"
+    },
+    {
+      "id": "project_2",
+      "description": "Code on a screen with graphs in the background.",
+      "imageUrl": "https://images.unsplash.com/photo-1545987796-200677ee1011?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkYXRhJTIwYW5hbHl0aWNzfGVufDB8fHx8MTc2NTMwODY2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data analytics"
+    },
+    {
+      "id": "project_3",
+      "description": "A mobile application interface for social networking.",
+      "imageUrl": "https://images.unsplash.com/photo-1691073112675-9685bc6779bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bW9iaWxlJTIwYXBwbGljYXRpb258ZW58MHx8fHwxNzY1MzUzMDU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mobile application"
+    },
+    {
+      "id": "gallery_1",
+      "description": "A dramatic landscape photo of mountains at sunset.",
+      "imageUrl": "https://images.unsplash.com/photo-1603657523988-76184975d205?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb3VudGFpbiUyMHN1bnNldHxlbnwwfHx8fDE3NjUzNTA4Njh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mountain sunset"
+    },
+    {
+      "id": "gallery_2",
+      "description": "A black and white photo of a city street.",
+      "imageUrl": "https://images.unsplash.com/photo-1549654747-1fe362f45d7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2l0eSUyMHN0cmVldHxlbnwwfHx8fDE3NjUzMDE3NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "city street"
+    },
+    {
+      "id": "gallery_3",
+      "description": "A macro shot of a flower with water droplets.",
+      "imageUrl": "https://images.unsplash.com/photo-1632736505270-a7a456a9e6ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmbG93ZXIlMjBtYWNyb3xlbnwwfHx8fDE3NjUyNzg3Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "flower macro"
+    },
+    {
+      "id": "gallery_4",
+      "description": "A long exposure shot of a coastline with misty water.",
+      "imageUrl": "https://images.unsplash.com/photo-1651755199582-206ea3a5fc4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtaXN0eSUyMGNvYXN0bGluZXxlbnwwfHx8fDE3NjUzNTMwNTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "misty coastline"
+    },
+    {
+      "id": "gallery_5",
+      "description": "An architectural photo of a modern building with sharp lines.",
+      "imageUrl": "https://images.unsplash.com/photo-1574848296471-28f79a036f79?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzY1Mjk1NDA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern architecture"
+    },
+    {
+      "id": "gallery_6",
+      "description": "A portrait of a person with interesting lighting.",
+      "imageUrl": "https://images.unsplash.com/photo-1662894162384-e2cfd96f8527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkcmFtYXRpYyUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NTI2OTg0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dramatic portrait"
+    }
+  ]
 }
