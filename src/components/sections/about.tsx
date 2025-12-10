@@ -9,19 +9,21 @@ export function About() {
   return (
     <AnimatedSection id="about" className="pt-24 md:pt-32">
       <div className="grid md:grid-cols-3 gap-8 md:gap-12 items-center">
-        <div className="relative w-48 h-48 md:w-64 md:h-64 mx-auto md:mx-0">
-          <Image
-            src={personalInfo.profilePicture.imageUrl}
-            alt={personalInfo.name}
-            width={256}
-            height={256}
-            priority
-            className="rounded-full object-cover border-4 border-card shadow-lg"
-            data-ai-hint={personalInfo.profilePicture.imageHint}
-          />
-          <div className="absolute bottom-2 right-2 md:bottom-4 md:right-4 bg-background p-2 rounded-full shadow-md">
-            <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-            <span className="absolute text-xs -translate-y-1/2 top-1/2 left-[120%] bg-muted px-2 py-1 rounded-md whitespace-nowrap">Available for hire</span>
+        <div className="flex flex-col items-center gap-8">
+          <div className="relative w-48 h-48 md:w-64 md:h-64">
+            <Image
+              src={personalInfo.profilePicture.imageUrl}
+              alt={personalInfo.name}
+              width={256}
+              height={256}
+              priority
+              className="rounded-full object-cover border-4 border-card shadow-lg"
+              data-ai-hint={personalInfo.profilePicture.imageHint}
+            />
+            <div className="absolute bottom-2 right-2 md:bottom-4 md:right-4 bg-background p-2 rounded-full shadow-md">
+              <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+              <span className="absolute text-xs -translate-y-1/2 top-1/2 left-[120%] bg-muted px-2 py-1 rounded-md whitespace-nowrap">Available for hire</span>
+            </div>
           </div>
         </div>
         <div className="md:col-span-2 text-center md:text-left">
