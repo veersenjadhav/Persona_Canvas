@@ -31,11 +31,16 @@ export function Contact() {
   });
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
-    // This is a mock submission. In a real app, you would send this to a backend.
-    console.log('Form submitted:', values);
+    const subject = encodeURIComponent(`Message from ${values.name} via Persona Canvas`);
+    const body = encodeURIComponent(`${values.message}\n\nFrom: ${values.name}\nEmail: ${values.email}`);
+    const mailtoLink = `mailto:${socialLinks.email}?subject=${subject}&body=${body}`;
+
+    // Open the user's default email client
+    window.location.href = mailtoLink;
+
     toast({
-      title: 'Message Sent!',
-      description: "Thanks for reaching out. I'll get back to you soon.",
+      title: 'Email Client Opened',
+      description: "Your email client has been opened to send the message.",
     });
     form.reset();
   }
@@ -122,8 +127,8 @@ export function Contact() {
                   </FormItem>
                 )}
               />
-              <Button type="submit" className="w-full" disabled={form.formState.isSubmitting}>
-                {form.formState.isSubmitting ? 'Sending...' : 'Send Message'}
+              <Button type="submit" className="w-full">
+                Send Message
               </Button>
             </form>
           </Form>
