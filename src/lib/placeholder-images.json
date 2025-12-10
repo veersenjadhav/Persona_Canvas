@@ -59,6 +59,36 @@
       "description": "A portrait of a person with interesting lighting.",
       "imageUrl": "https://images.unsplash.com/photo-1662894162384-e2cfd96f8527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkcmFtYXRpYyUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NTI2OTg0MHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "dramatic portrait"
+    },
+    {
+      "id": "blog_1",
+      "description": "A desk with a laptop showing code on the screen.",
+      "imageUrl": "https://images.unsplash.com/photo-1559842135-8d5e4214ae77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2RlJTIwbGFwdG9wfGVufDB8fHx8MTc2NTM2NDM5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "code laptop"
+    },
+    {
+      "id": "blog_2",
+      "description": "A diagram explaining React Hooks.",
+      "imageUrl": "https://images.unsplash.com/photo-1751698185706-a07a986706a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyZWFjdCUyMGRpYWdyYW18ZW58MHx8fHwxNzY1MzY0Mzk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "react diagram"
+    },
+    {
+      "id": "blog_3",
+      "description": "A wireframe sketch for a mobile app.",
+      "imageUrl": "https://images.unsplash.com/photo-1558655146-d09347e92766?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx1aSUyMHNrZXRjaHxlbnwwfHx8fDE3NjUzNjQzOTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ui sketch"
+    },
+    {
+      "id": "blog_4",
+      "description": "TypeScript logo on a screen.",
+      "imageUrl": "https://images.unsplash.com/photo-1751699413631-bf89bc43f54d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0eXBlc2NyaXB0JTIwbG9nb3xlbnwwfHx8fDE3NjUzNjQzOTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "typescript logo"
+    },
+    {
+      "id": "blog_5",
+      "description": "A vintage camera on a wooden table.",
+      "imageUrl": "https://images.unsplash.com/photo-1601854266103-c1dd42130633?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2aW50YWdlJTIwY2FtZXJhfGVufDB8fHx8MTc2NTI3NDA2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vintage camera"
     }
   ]
 }

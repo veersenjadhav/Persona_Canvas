@@ -88,6 +88,39 @@ export const projects = [
   }
 ];
 
+export const blogs = [
+  {
+    title: "The Art of Clean Code",
+    description: "Exploring the principles of writing clean, readable, and maintainable code in modern software development.",
+    image: findImage('blog_1'),
+    link: "#"
+  },
+  {
+    title: "A Deep Dive into React Hooks",
+    description: "A comprehensive guide to understanding and mastering React Hooks for more efficient and powerful components.",
+    image: findImage('blog_2'),
+    link: "#"
+  },
+  {
+    title: "UI vs. UX: A Developer's Guide",
+    description: "Demystifying the relationship between User Interface and User Experience from a developer's perspective.",
+    image: findImage('blog_3'),
+    link: "#"
+  },
+  {
+    title: "Mastering TypeScript",
+    description: "Tips and tricks for leveraging TypeScript to build robust, type-safe applications at scale.",
+    image: findImage('blog_4'),
+    link: "#"
+  },
+  {
+    title: "The Lens: A Photographer's Journal",
+    description: "A personal blog sharing stories and techniques behind my favorite photographs.",
+    image: findImage('blog_5'),
+    link: "#"
+  }
+];
+
 export const recognitions = [
   {
     title: "Certified Kubernetes Application Developer",
