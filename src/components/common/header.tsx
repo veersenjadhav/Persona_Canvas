@@ -12,6 +12,7 @@ const navItems = [
   { href: '#experience', label: 'Experience' },
   { href: '#academics', label: 'Academics' },
   { href: '#projects', label: 'Projects' },
+  { href: '#recognition', label: 'Recognition' },
   { href: '#blogs', label: 'Blogs' },
   { href: '#gallery', label: 'Gallery' },
   { href: '#contact', label: 'Contact' },
@@ -20,7 +21,7 @@ const navItems = [
 function Logo({ className }: { className?: string }) {
   return (
     <div className={cn("flex items-center justify-center size-9 bg-primary text-primary-foreground rounded-md font-headline font-bold text-lg", className)}>
-      VJ
+      AD
     </div>
   );
 }
