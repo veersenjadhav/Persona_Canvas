@@ -18,25 +18,23 @@ export function Experience() {
         
         <div className="space-y-12">
           {workExperience.map((job, index) => (
-            <div key={index} className={cn(
-              "relative flex items-start",
-              index % 2 === 0 ? 'md:justify-start' : 'md:justify-end'
-            )}>
+            <div key={index} className="relative">
               {/* Dot on timeline */}
               <div className="absolute left-4 md:left-1/2 top-1 h-3 w-3 bg-primary rounded-full -translate-x-1/2"></div>
-
-              {/* Spacer on one side for desktop */}
-              <div className="hidden md:block w-1/2"></div>
               
-              {/* Content */}
               <div className={cn(
-                "pl-10 md:w-1/2",
-                index % 2 === 0 ? 'md:pl-8' : 'md:pl-0 md:pr-8 md:text-right'
+                "pl-10 md:grid md:grid-cols-2 md:gap-8",
               )}>
-                <h3 className="text-xl font-headline font-semibold">{job.role}</h3>
-                <p className="font-medium text-accent">{job.company}</p>
-                <p className="text-sm text-muted-foreground mt-1">{job.period}</p>
-                <p className="text-muted-foreground mt-2">{job.description}</p>
+                <div className={cn(
+                  index % 2 === 0 ? 'md:text-right' : 'md:order-2 md:text-left'
+                )}>
+                  <h3 className="text-xl font-headline font-semibold">{job.role}</h3>
+                  <p className="font-medium text-accent">{job.company}</p>
+                  <p className="text-sm text-muted-foreground mt-1">{job.period}</p>
+                  <p className="text-muted-foreground mt-2">{job.description}</p>
+                </div>
+                {/* This empty div is a spacer */}
+                <div></div>
               </div>
             </div>
           ))}
