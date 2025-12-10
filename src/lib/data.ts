@@ -13,7 +13,7 @@ const findImage = (id: string): ImagePlaceholder => {
 
 export const personalInfo = {
   name: "Veersen Jadhav",
-  title: "Senior Software Engineer by Profession & Photographer by Paasion",
+  title: "Senior Software Engineer by Profession & Photographer by Pasion",
   summary: "A creative and detail-oriented Senior Software Engineer with over 5 years of experience in building scalable web applications. Passionate about clean and quality code, intuitive product formation, and capturing the world through photography. Seeking to leverage technical expertise and a creative eye in a challenging new role.",
   profilePicture: findImage('profile_picture'),
   skills: ["C#", ".Net Core", "Python", "Nvidia CUDA Framework", "Machine Learning", "Deep Learning", "Photography"]
