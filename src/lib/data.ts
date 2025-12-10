@@ -12,7 +12,7 @@ const findImage = (id: string): ImagePlaceholder => {
 };
 
 export const personalInfo = {
-  name: "Alex Doe",
+  name: "Vee Jay",
   title: "Senior Software Engineer & Photographer",
   summary: "A creative and detail-oriented Senior Software Engineer with over 8 years of experience in building scalable web applications. Passionate about clean code, intuitive user experiences, and capturing the world through photography. Seeking to leverage technical expertise and a creative eye in a challenging new role.",
   profilePicture: findImage('profile_picture'),
@@ -20,11 +20,11 @@ export const personalInfo = {
 };
 
 export const socialLinks = {
-  email: "alex.doe@example.com",
+  email: "vee.jay@example.com",
   phone: "+1 (555) 123-4567",
-  linkedin: "https://linkedin.com/in/alexdoe",
-  github: "https://github.com/alexdoe",
-  twitter: "https://twitter.com/alexdoe",
+  linkedin: "https://linkedin.com/in/veejay",
+  github: "https://github.com/veejay",
+  twitter: "https://twitter.com/veejay",
 };
 
 export const academicRecords = [
@@ -69,7 +69,7 @@ export const projects = [
     description: "A collaborative project management tool designed for remote teams, featuring real-time updates and task tracking.",
     technologies: ["Next.js", "Firebase", "Tailwind CSS"],
     image: findImage('project_1'),
-    repoLink: "https://github.com/alexdoe/nova",
+    repoLink: "https://github.com/veejay/nova",
     liveLink: "#"
   },
   {
@@ -77,7 +77,7 @@ export const projects = [
     description: "A data visualization library for creating interactive charts and graphs with a simple and intuitive API.",
     technologies: ["D3.js", "TypeScript", "React"],
     image: findImage('project_2'),
-    repoLink: "https://github.com/alexdoe/dataviz",
+    repoLink: "https://github.com/veejay/dataviz",
     liveLink: "#"
   },
   {
@@ -85,7 +85,7 @@ export const projects = [
     description: "A mobile-first social networking application concept with a focus on privacy and user control.",
     technologies: ["React Native", "GraphQL", "PostgreSQL"],
     image: findImage('project_3'),
-    repoLink: "https://github.com/alexdoe/connectapp",
+    repoLink: "https://github.com/veejay/connectapp",
     liveLink: null
   }
 ];
