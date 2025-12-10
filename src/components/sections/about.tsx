@@ -8,8 +8,8 @@ import { ArrowDown } from 'lucide-react';
 export function About() {
   return (
     <AnimatedSection id="about" className="pt-24 md:pt-32">
-      <div className="grid md:grid-cols-3 gap-8 md:gap-12 items-center">
-        <div className="flex flex-col items-center gap-8">
+      <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+        <div className="flex-shrink-0">
           <div className="relative w-48 h-48 md:w-64 md:h-64">
             <Image
               src={personalInfo.profilePicture.imageUrl}
@@ -26,7 +26,7 @@ export function About() {
             </div>
           </div>
         </div>
-        <div className="md:col-span-2 text-center md:text-left">
+        <div className="text-center md:text-left flex-grow">
           <h1 className="text-4xl md:text-6xl font-headline font-bold text-primary tracking-tighter">
             {personalInfo.name}
           </h1>
