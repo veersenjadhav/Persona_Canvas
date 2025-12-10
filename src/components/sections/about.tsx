@@ -26,7 +26,7 @@ export function About() {
             </div>
           </div>
         </div>
-        <div className="text-center md:text-left flex-grow">
+        <div className="text-center md:text-left flex-grow mt-4 md:mt-0">
           <h1 className="text-4xl md:text-6xl font-headline font-bold text-primary tracking-tighter">
             {personalInfo.name}
           </h1>
