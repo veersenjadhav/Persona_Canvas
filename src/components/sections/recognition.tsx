@@ -1,7 +1,8 @@
+import Image from 'next/image';
 import { recognitions } from '@/lib/data';
 import { AnimatedSection } from '@/components/common/animated-section';
 import { Button } from '@/components/ui/button';
-import { ArrowUpRight } from 'lucide-react';
+import { ArrowUpRight, Award } from 'lucide-react';
 
 export function Recognition() {
   return (
@@ -18,7 +19,17 @@ export function Recognition() {
             <li key={index} className="flex items-start gap-6 p-6 bg-background rounded-lg shadow-sm">
               <div className="flex-shrink-0">
                 <div className="flex items-center justify-center h-12 w-12 rounded-full bg-accent/10 text-accent">
-                  <rec.icon />
+                  {typeof rec.icon === 'string' ? (
+                    <Image
+                      src={rec.icon}
+                      alt={`${rec.issuer} logo`}
+                      width={32}
+                      height={32}
+                      className="object-contain"
+                    />
+                  ) : (
+                    <rec.icon />
+                  )}
                 </div>
               </div>
               <div className="flex-grow">

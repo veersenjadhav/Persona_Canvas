@@ -123,14 +123,6 @@ export const blogs = [
   }
 ];
 
-const MicrosoftLogo = () => React.createElement('svg', {
-    fill: "currentColor",
-    viewBox: "0 0 21 21",
-    className: "h-6 w-6"
-  },
-  React.createElement('path', { d: "M10 0H0v10h10V0zm11 0H11v10h10V0zM10 11H0v10h10V11zm11 0H11v10h10V11z" })
-);
-
 
 export const recognitions = [
   {
@@ -138,7 +130,7 @@ export const recognitions = [
     issuer: "Microsoft",
     date: "2023",
     description: "Earned certification demonstrating expertise in front-end and back-end web development with Microsoft technologies.",
-    icon: MicrosoftLogo,
+    icon: 'https://picsum.photos/seed/mslogo/32/32',
     link: "#",
     showLink: true
   },
