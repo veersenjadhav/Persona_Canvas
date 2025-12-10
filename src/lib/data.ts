@@ -1,5 +1,7 @@
 import type { ImagePlaceholder } from './placeholder-images';
 import { PlaceHolderImages } from './placeholder-images';
+import { Award } from 'lucide-react';
+import * as React from 'react';
 
 const findImage = (id: string): ImagePlaceholder => {
   const image = PlaceHolderImages.find((img) => img.id === id);
@@ -121,24 +123,51 @@ export const blogs = [
   }
 ];
 
+const MicrosoftLogo = () => React.createElement('svg', {
+    fill: "currentColor",
+    viewBox: "0 0 21 21",
+    className: "h-6 w-6"
+  },
+  React.createElement('path', { d: "M10 0H0v10h10V0zm11 0H11v10h10V0zM10 11H0v10h10V11zm11 0H11v10h10V11z" })
+);
+
+
 export const recognitions = [
+  {
+    title: "Microsoft Certified: Full Stack Developer",
+    issuer: "Microsoft",
+    date: "2023",
+    description: "Earned certification demonstrating expertise in front-end and back-end web development with Microsoft technologies.",
+    icon: MicrosoftLogo,
+    link: "#",
+    showLink: true
+  },
   {
     title: "Certified Kubernetes Application Developer",
     issuer: "The Linux Foundation",
     date: "2022",
-    description: "Demonstrated expertise in designing, building, and deploying cloud-native applications on Kubernetes."
+    description: "Demonstrated expertise in designing, building, and deploying cloud-native applications on Kubernetes.",
+    icon: Award,
+    link: "#",
+    showLink: true
   },
   {
     title: "Innovator of the Year Award",
     issuer: "Innovate Inc.",
     date: "2021",
-    description: "Awarded for outstanding contributions to the company's flagship product and leadership within the engineering team."
+    description: "Awarded for outstanding contributions to the company's flagship product and leadership within the engineering team.",
+    icon: Award,
+    link: null,
+    showLink: false
   },
   {
     title: "International Photo Contest - Honorable Mention",
     issuer: "Photography World",
     date: "2020",
-    description: "Recognized for a landscape photograph in a highly competitive international contest."
+    description: "Recognized for a landscape photograph in a highly competitive international contest.",
+    icon: Award,
+    link: null,
+    showLink: false
   }
 ];
 

@@ -1,6 +1,7 @@
 import { recognitions } from '@/lib/data';
 import { AnimatedSection } from '@/components/common/animated-section';
-import { Award } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { ArrowUpRight } from 'lucide-react';
 
 export function Recognition() {
   return (
@@ -14,10 +15,10 @@ export function Recognition() {
       <div className="mt-12 max-w-3xl mx-auto">
         <ul className="space-y-8">
           {recognitions.map((rec, index) => (
-            <li key={index} className="flex items-start gap-4 p-6 bg-background rounded-lg shadow-sm">
+            <li key={index} className="flex items-start gap-6 p-6 bg-background rounded-lg shadow-sm">
               <div className="flex-shrink-0">
                 <div className="flex items-center justify-center h-12 w-12 rounded-full bg-accent/10 text-accent">
-                  <Award className="h-6 w-6" />
+                  <rec.icon />
                 </div>
               </div>
               <div className="flex-grow">
@@ -27,6 +28,15 @@ export function Recognition() {
                 </div>
                 <p className="font-medium text-muted-foreground">{rec.issuer}</p>
                 <p className="mt-2 text-sm text-muted-foreground">{rec.description}</p>
+                {rec.showLink && rec.link && (
+                  <div className="mt-4">
+                    <Button variant="outline" size="sm" asChild>
+                      <a href={rec.link} target="_blank" rel="noopener noreferrer">
+                        View Certificate <ArrowUpRight className="ml-2 h-4 w-4" />
+                      </a>
+                    </Button>
+                  </div>
+                )}
               </div>
             </li>
           ))}
