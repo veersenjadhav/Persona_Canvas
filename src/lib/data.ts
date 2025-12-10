@@ -20,45 +20,45 @@ export const personalInfo = {
 };
 
 export const socialLinks = {
-  email: "vee.jay@example.com",
-  linkedin: "https://linkedin.com/in/veejay",
-  github: "https://github.com/veejay",
-  twitter: "https://twitter.com/veejay",
+  email: "veersenjadhav@gmail.com",
+  linkedin: "https://www.linkedin.com/in/veersenjadhav",
+  github: "https://github.com/veersenjadhav",
+  twitter: "https://x.com/veersen_jadhav",
 };
 
 export const academicRecords = [
   {
-    institution: "University of Technology",
-    degree: "Master of Science in Computer Science",
-    period: "2014 - 2016",
-    description: "Focused on machine learning and distributed systems. Thesis project on real-time data processing pipelines."
+    institution: "Walchand College of Engineering, Sangli (An Govt. Aided Autonomous Institute)",
+    degree: "M. Tech. in Computer Science and Engineering",
+    period: "2018 - 2020",
+    description: "Focused on High Performance Computing and Parallel Computing domains. Thesis project with colab (DELL EMC) on Scaling Up Machine Learning Algorithms using OpenMP and CUDA."
   },
   {
-    institution: "State University",
-    degree: "Bachelor of Science in Software Engineering",
-    period: "2010 - 2014",
-    description: "Graduated with honors. Active member of the coding club and participated in several hackathons."
+    institution: "Shivaji University, Kolhapur",
+    degree: "Bachelor of Engineering in Computer Science and Engineering",
+    period: "2014 - 2018",
+    description: "Graduated with First Class. Active member of the coding club, Computer Science Students' Association and participated in several hackathons."
   }
 ];
 
 export const workExperience = [
   {
-    company: "Innovate Inc.",
+    company: "Sagitec Solutions LLC., Pune",
     role: "Senior Software Engineer",
-    period: "2019 - Present",
-    description: "Led the development of a new customer-facing analytics dashboard using Next.js and TypeScript. Mentored junior engineers and improved code review processes, reducing bugs by 20%."
+    period: "2024 - Present",
+    description: "I became a key developer driving critical enhancements to the Neospin product. I took the lead in developing and implementing the complex State Tax calculations logic for more than 20 different US states. I am a key developer in developing Payroll and improving the batch execution process for several major customers. This helped in running large-scale data operations much faster and more efficiently. All my development work, enhancements, and features are completed while strictly following the SAFe's Agile methodology, ensuring quality code and timely delivery. Also as a Senior Developer, I provide support to multiple customers. This involves delivering necessary configurations and customizations within the product while always making sure of the code quality and reliablity."
   },
   {
-    company: "Tech Solutions LLC",
+    company: "Sagitec Solutions LLC., Pune",
     role: "Software Engineer",
-    period: "2016 - 2019",
-    description: "Developed and maintained features for a large-scale e-commerce platform. Worked on both front-end (React) and back-end (Node.js) systems, contributing to a 15% increase in site performance."
+    period: "2020 - 2024",
+    description: "As a Software Engineer, I was a core developer primarily focused on the back-end logic of the Neospin product. This product is a crucial platform designed specifically for the US Pension domain. My main responsibility was to develop and enhance the software, contributing heavily to the complex retiree-side calculations. Throughout this role, I ensured that every development met the specific needs of our customers, while always keeping a the focus on the required business rules and processes of the pension industry. My contributions helped maintain the accuracy and functionality of this core financial product."
   },
   {
-    company: "Digital Creations",
-    role: "Junior Developer",
-    period: "2014 - 2016",
-    description: "Assisted in building responsive websites for various clients using HTML, CSS, and JavaScript. Gained foundational experience in agile development methodologies."
+    company: "DELL EMC, Pune",
+    role: "Intern",
+    period: "2019 - 2020",
+    description: "Focused on scaling Machine Learning algorithms for a rule-based log analysis engine that used a Reinforcement Decision Tree (Machine Learning) algorithm. I effectively increased the engine's performance by implementing parallel computing using OpenMP for multi-core CPU optimization and CUDA for GPU-accelerated processing. This work made the log analysis process significantly faster and more efficient."
   }
 ];
 
