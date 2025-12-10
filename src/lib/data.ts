@@ -12,11 +12,11 @@ const findImage = (id: string): ImagePlaceholder => {
 };
 
 export const personalInfo = {
-  name: "Vee Jay",
-  title: "Senior Software Engineer & Photographer",
-  summary: "A creative and detail-oriented Senior Software Engineer with over 8 years of experience in building scalable web applications. Passionate about clean code, intuitive user experiences, and capturing the world through photography. Seeking to leverage technical expertise and a creative eye in a challenging new role.",
+  name: "Veersen Jadhav",
+  title: "Senior Software Engineer by Profession & Photographer by Paasion",
+  summary: "A creative and detail-oriented Senior Software Engineer with over 5 years of experience in building scalable web applications. Passionate about clean and quality code, intuitive product formation, and capturing the world through photography. Seeking to leverage technical expertise and a creative eye in a challenging new role.",
   profilePicture: findImage('profile_picture'),
-  skills: ["React", "Next.js", "TypeScript", "Node.js", "GraphQL", "UI/UX Design", "Photography"]
+  skills: ["C#", ".Net Core", "Python", "Nvidia CUDA Framework", "Machine Learning", "Deep Learning", "Photography"]
 };
 
 export const socialLinks = {
