@@ -17,7 +17,7 @@ export function About() {
               width={256}
               height={256}
               priority
-              className="rounded-full object-cover aspect-square border-4 border-card shadow-lg"
+              className="rounded-full object-cover border-4 border-card shadow-lg"
               data-ai-hint={personalInfo.profilePicture.imageHint}
             />
             <div className="absolute bottom-2 right-2 md:bottom-4 md:right-4 bg-background p-2 rounded-full shadow-md">
