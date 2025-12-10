@@ -20,10 +20,6 @@ export function About() {
               className="rounded-full object-cover border-4 border-card shadow-lg"
               data-ai-hint={personalInfo.profilePicture.imageHint}
             />
-            <div className="absolute bottom-2 right-2 md:bottom-4 md:right-4 bg-background p-2 rounded-full shadow-md">
-              <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-              <span className="absolute text-xs -translate-y-1/2 top-1/2 left-[120%] bg-muted px-2 py-1 rounded-md whitespace-nowrap">Available for hire</span>
-            </div>
           </div>
         </div>
 
