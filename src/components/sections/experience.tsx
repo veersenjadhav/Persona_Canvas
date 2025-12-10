@@ -35,7 +35,7 @@ export function Experience() {
                 </div>
               </div>
               
-              <div className="w-full pl-8 md:w-1/2 md:pl-8">
+              <div className="w-full pl-10 md:w-1/2 md:pl-8">
                 <div className={index % 2 === 0 ? 'md:text-left' : 'md:text-right'}>
                    <h3 className="text-xl font-headline font-semibold">{job.role}</h3>
                     <p className="font-medium text-accent">{job.company}</p>
