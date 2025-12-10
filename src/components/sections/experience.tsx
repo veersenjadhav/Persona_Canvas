@@ -1,6 +1,7 @@
 import { workExperience } from '@/lib/data';
 import { AnimatedSection } from '@/components/common/animated-section';
 import { Briefcase } from 'lucide-react';
+import { cn } from '@/lib/utils';
 
 export function Experience() {
   return (
@@ -17,31 +18,25 @@ export function Experience() {
         
         <div className="space-y-12">
           {workExperience.map((job, index) => (
-            <div key={index} className="relative flex items-start group">
+            <div key={index} className={cn(
+              "relative flex items-start md:space-x-8",
+              index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
+            )}>
               {/* Dot on timeline */}
               <div className="absolute left-4 md:left-1/2 top-1 h-3 w-3 bg-primary rounded-full -translate-x-1/2 transition-transform duration-300 group-hover:scale-125"></div>
 
-              <div className="pl-8 md:pl-0 md:w-1/2 md:pr-8">
-                <div className={index % 2 === 0 ? 'md:text-right' : 'md:text-left md:ml-auto'}>
-                  {/* Content for small screens is always on the right */}
-                  {index % 2 !== 0 && (
-                    <div className="hidden md:block">
-                      <h3 className="text-xl font-headline font-semibold">{job.role}</h3>
-                      <p className="font-medium text-accent">{job.company}</p>
-                      <p className="text-sm text-muted-foreground mt-1">{job.period}</p>
-                      <p className="text-muted-foreground mt-2">{job.description}</p>
-                    </div>
-                  )}
-                </div>
-              </div>
+              {/* Spacer on desktop */}
+              <div className="hidden md:block md:w-1/2"></div>
               
-              <div className="w-full pl-10 md:w-1/2 md:pl-8">
-                <div className={index % 2 === 0 ? 'md:text-left' : 'md:text-right'}>
-                   <h3 className="text-xl font-headline font-semibold">{job.role}</h3>
-                    <p className="font-medium text-accent">{job.company}</p>
-                    <p className="text-sm text-muted-foreground mt-1">{job.period}</p>
-                    <p className="text-muted-foreground mt-2">{job.description}</p>
-                </div>
+              {/* Content */}
+              <div className={cn(
+                "w-full pl-10 md:w-1/2 md:pl-0",
+                index % 2 === 0 ? 'md:text-left' : 'md:text-right md:pr-0'
+              )}>
+                <h3 className="text-xl font-headline font-semibold">{job.role}</h3>
+                <p className="font-medium text-accent">{job.company}</p>
+                <p className="text-sm text-muted-foreground mt-1">{job.period}</p>
+                <p className="text-muted-foreground mt-2">{job.description}</p>
               </div>
             </div>
           ))}
