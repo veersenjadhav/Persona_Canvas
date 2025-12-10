@@ -19,7 +19,7 @@ const navItems = [
 function Logo({ className }: { className?: string }) {
   return (
     <div className={cn("flex items-center justify-center size-9 bg-primary text-primary-foreground rounded-md font-headline font-bold text-lg", className)}>
-      PC
+      VJ
     </div>
   );
 }
