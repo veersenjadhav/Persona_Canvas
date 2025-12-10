@@ -21,7 +21,7 @@ export function Experience() {
               {/* Dot on timeline */}
               <div className="absolute left-4 md:left-1/2 top-1 h-3 w-3 bg-primary rounded-full -translate-x-1/2 transition-transform duration-300 group-hover:scale-125"></div>
 
-              <div className="w-full pl-10 md:pl-0 md:w-1/2 md:pr-8 text-right">
+              <div className="w-full pl-8 md:pl-0 md:w-1/2 md:pr-8 text-right">
                 <div className={index % 2 === 0 ? 'md:text-right' : 'md:text-left md:ml-auto'}>
                   {/* Content for small screens is always on the right */}
                   {index % 2 !== 0 && (
@@ -35,7 +35,7 @@ export function Experience() {
                 </div>
               </div>
               
-              <div className="w-full pl-10 md:w-1/2 md:pl-8">
+              <div className="w-full pl-8 md:w-1/2 md:pl-8">
                 <div className={index % 2 === 0 ? 'md:text-left' : 'md:text-right'}>
                    <h3 className="text-xl font-headline font-semibold">{job.role}</h3>
                     <p className="font-medium text-accent">{job.company}</p>
