@@ -10,7 +10,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
 import { useToast } from '@/hooks/use-toast';
 import { socialLinks } from '@/lib/data';
-import { Mail, Phone, Linkedin, Github, Twitter } from 'lucide-react';
+import { Mail, Linkedin, Github, Twitter } from 'lucide-react';
 
 const formSchema = z.object({
   name: z.string().min(2, { message: 'Name must be at least 2 characters.' }),
@@ -56,16 +56,12 @@ export function Contact() {
       <div className="mt-12 max-w-4xl mx-auto grid md:grid-cols-2 gap-12">
         <div className="space-y-6">
           <h3 className="text-2xl font-headline font-semibold">Contact Information</h3>
-          <p className="text-muted-foreground">Feel free to reach out via email, phone, or find me on social media. I look forward to hearing from you!</p>
+          <p className="text-muted-foreground">Feel free to reach out via email or find me on social media. I look forward to hearing from you!</p>
           <div className="space-y-4">
             <a href={`mailto:${socialLinks.email}`} className="flex items-center gap-4 group">
               <Mail className="h-6 w-6 text-accent" />
               <span className="text-foreground group-hover:text-accent transition-colors">{socialLinks.email}</span>
             </a>
-            <div className="flex items-center gap-4">
-              <Phone className="h-6 w-6 text-accent" />
-              <span className="text-foreground">{socialLinks.phone}</span>
-            </div>
           </div>
           <div className="flex items-center gap-4 pt-4">
               <Button variant="outline" size="icon" asChild>

@@ -1,5 +1,5 @@
 import { socialLinks } from '@/lib/data';
-import { Mail, Phone, Linkedin, Github, Twitter } from 'lucide-react';
+import { Mail, Linkedin, Github, Twitter } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export function Footer() {

@@ -21,7 +21,6 @@ export const personalInfo = {
 
 export const socialLinks = {
   email: "vee.jay@example.com",
-  phone: "+1 (555) 123-4567",
   linkedin: "https://linkedin.com/in/veejay",
   github: "https://github.com/veejay",
   twitter: "https://twitter.com/veejay",
