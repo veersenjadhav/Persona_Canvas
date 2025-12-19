@@ -125,40 +125,76 @@ export const blogs = [
 
 export const recognitions = [
   {
-    title: "Microsoft Certified: Full Stack Developer",
-    issuer: "Microsoft",
+    title: "Star Award",
+    issuer: "Sagitec Solutions LLC",
+    date: "2024",
+    description: "Recognised with Star Award for making contribution towards achieving improved product performace.",
+    icon: "https://media.licdn.com/dms/image/v2/D560BAQGq-oYhwKIWPQ/company-logo_100_100/company-logo_100_100/0/1719255327619/sagitec_solutions_logo?e=1767830400&v=beta&t=jn9oisl221e97ExuFz4Y4H_Z9-KudRUUjl864XcgasE",
+    link: "#",
+    showLink: false
+  },
+  {
+    title: "Star Award",
+    issuer: "Sagitec Solutions LLC",
     date: "2023",
-    description: "Earned certification demonstrating expertise in front-end and back-end web development with Microsoft technologies.",
-    icon: 'https://picsum.photos/seed/mslogo/32/32',
+    description: "Recognised with Star Award for making my best contribution towards the best performing Pension Products team in Sagitec Solutions LLC.",
+    icon: "https://media.licdn.com/dms/image/v2/D560BAQGq-oYhwKIWPQ/company-logo_100_100/company-logo_100_100/0/1719255327619/sagitec_solutions_logo?e=1767830400&v=beta&t=jn9oisl221e97ExuFz4Y4H_Z9-KudRUUjl864XcgasE",
     link: "#",
+    showLink: false
+  },
+  {
+    title: "Foundations of Coding Full-Stack",
+    issuer: "Microsoft",
+    date: "2025",
+    description: "Covered foundational concepts of full-stack development. Learnt the basics of coding, problem-solving, and writing efficient, modular code, while gaining hands-on experience with both front-end and back-end technologies.",
+    icon: "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=1767830400&v=beta&t=u9FCDbqLVZ4t6nd1Wz9TRGvZhw0T_f7QhcelWHj4SFM",
+    link: "https://www.coursera.org/account/accomplishments/verify/T6UFHLN3Z3AR",
     showLink: true
   },
   {
-    title: "Certified Kubernetes Application Developer",
-    issuer: "The Linux Foundation",
+    title: "Google Certified: Agile Project Management",
+    issuer: "Google",
+    date: "2023",
+    description: "Demonstrated Agile project management approach and philosophy, including values and principles and pillars of Scrum and how they support Scrum values.",
+    icon: "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1767830400&v=beta&t=3YHrF4qFtVFJXbv2wKiCRzpP-UkRWLBOvEmwtpa0Cgg",
+    link: "https://www.coursera.org/account/accomplishments/verify/GZZSKH82AC26",
+    showLink: true
+  },
+  {
+    title: "Microsoft Certified: Azure AI Fundamentals",
+    issuer: "Microsoft",
     date: "2022",
-    description: "Demonstrated expertise in designing, building, and deploying cloud-native applications on Kubernetes.",
-    icon: Award,
-    link: "#",
+    description: "Demonstrated foundational knowledge of machine learning (ML) and artificial intelligence (AI) concepts and related Microsoft Azure services.",
+    icon: "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=1767830400&v=beta&t=u9FCDbqLVZ4t6nd1Wz9TRGvZhw0T_f7QhcelWHj4SFM",
+    link: "https://www.credly.com/badges/765cd5d8-81a2-407f-a322-7057921cfa0c/public_url",
     showLink: true
   },
   {
-    title: "Innovator of the Year Award",
-    issuer: "Innovate Inc.",
+    title: "Microsoft Certified: Azure Fundamentals",
+    issuer: "Microsoft",
     date: "2021",
-    description: "Awarded for outstanding contributions to the company's flagship product and leadership within the engineering team.",
-    icon: Award,
-    link: null,
-    showLink: false
+    description: "Demonstrated foundational level knowledge of cloud services and how those services are provided with Microsoft Azure",
+    icon: "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=1767830400&v=beta&t=u9FCDbqLVZ4t6nd1Wz9TRGvZhw0T_f7QhcelWHj4SFM",
+    link: "https://www.credly.com/badges/42afa92a-db89-4cbb-9d18-409180e47ed8/public_url",
+    showLink: true
   },
   {
-    title: "International Photo Contest - Honorable Mention",
-    issuer: "Photography World",
+    title: "Deep Learning with Keras and Tensorflow",
+    issuer: "IBM",
     date: "2020",
-    description: "Recognized for a landscape photograph in a highly competitive international contest.",
-    icon: Award,
-    link: null,
-    showLink: false
+    description: "Awarded for contributions in Unsupervised learning in Keras, Deep Q-networks (DQNs), and reinforcement learning.",
+    icon: "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_100_100/company-logo_100_100/0/1688684715866/ibm_logo?e=1767830400&v=beta&t=GV_W400aHOIzn6Nh0GlcCdoDaqIhAuhtJAAHhgOqkKU",
+    link: "https://www.coursera.org/account/accomplishments/verify/ATGRMMFY4VZA",
+    showLink: true
+  },
+  {
+    title: "Fundamentals of Parallelism on Intel Architecture",
+    issuer: "Intel Corporation",
+    date: "2020",
+    description: "Recognized for completeting graded course on Fundamentals of Parallelism on Intel Architecture.",
+    icon: "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1767830400&v=beta&t=0nvi10G7m-q3GeC_9pXE7-ZJlTsZfXu8MN6hfSUbiXQ",
+    link: "https://www.coursera.org/account/accomplishments/verify/2QQVEHHZKYBN",
+    showLink: true
   }
 ];
 
