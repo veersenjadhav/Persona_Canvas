@@ -3,6 +3,35 @@ import { galleryImages } from '@/lib/data';
 import { AnimatedSection } from '@/components/common/animated-section';
 
 export function Gallery() {
+  const midPoint = Math.ceil(galleryImages.length / 2);
+  const firstRowImages = galleryImages.slice(0, midPoint);
+  const secondRowImages = galleryImages.slice(midPoint);
+
+  const GalleryRow = ({ images }: { images: typeof galleryImages }) => (
+    <div className="flex overflow-x-auto space-x-4 pb-4">
+      {images.map((image, index) => (
+        <div key={index} className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/3">
+          <div className="p-1">
+            <div className="relative group overflow-hidden rounded-lg shadow-lg aspect-[4/3]">
+              <Image
+                  src={image.imageUrl}
+                  alt={image.description}
+                  fill
+                  className="object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
+                  data-ai-hint={image.imageHint}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-4 text-primary-foreground">
+                  <p className="text-sm font-light italic opacity-80">{image.description}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+
   return (
     <AnimatedSection id="gallery">
       <div className="text-center">
@@ -11,23 +40,9 @@ export function Gallery() {
         </h2>
         <p className="mt-2 text-lg text-muted-foreground">A glimpse into my passion for photography.</p>
       </div>
-      <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
-        {galleryImages.map((image, index) => (
-           <div key={image.id} className="relative group overflow-hidden rounded-lg shadow-lg aspect-[3/4]">
-             <Image
-                src={image.imageUrl}
-                alt={image.description}
-                fill
-                className="object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
-                data-ai-hint={image.imageHint}
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-             />
-             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
-             <div className="absolute bottom-0 left-0 right-0 p-4 text-primary-foreground">
-                <p className="text-sm font-light italic opacity-80">{image.description}</p>
-             </div>
-           </div>
-        ))}
+      <div className="mt-12 space-y-8">
+        <GalleryRow images={firstRowImages} />
+        <GalleryRow images={secondRowImages} />
       </div>
     </AnimatedSection>
   );
