@@ -45,7 +45,8 @@ export function Projects() {
               <div className="flex items-center w-full justify-between">
                 <Button variant="ghost" size="sm" asChild>
                   <a href={project.repoLink} target="_blank" rel="noopener noreferrer">
-                    <Github className="mr-2 h-4 w-4" /> GitHub
+                    {project.showGithubIcon ? <Github className="mr-2 h-4 w-4" /> : <ArrowUpRight className="mr-2 h-4 w-4" />}
+                    {project.repoButtonText}
                   </a>
                 </Button>
                 {project.liveLink && project.liveLink !== '#' && (

@@ -69,6 +69,8 @@ export const projects = [
     technologies: [".Net Core", "C#", "Backend Development", "SQL", "Azure DevOps", "SAFe Agile Framework"],
     image: findImage('project_1'),
     repoLink: "https://www.sagitec.com/neospin/pension-administration-software",
+    repoButtonText: "Learn More",
+    showGithubIcon: false,
     liveLink: "#"
   },
   {
@@ -77,6 +79,8 @@ export const projects = [
     technologies: ["Next.js", "Google Cloud", "Tailwind CSS"],
     image: findImage('project_2'),
     repoLink: "https://github.com/veersenjadhav/Persona_Canvas",
+    repoButtonText: "GitHub",
+    showGithubIcon: true,
     liveLink: "#"
   },
   {
@@ -85,6 +89,8 @@ export const projects = [
     technologies: ["C++", "Nvidia CUDA", "Python", "Machine Learning", "High Performance Computing"],
     image: findImage('project_3'),
     repoLink: "https://drive.google.com/file/d/1v57YL4qiuAoH2zHfagEMRld8kiyZpzZz/view?usp=sharing",
+    repoButtonText: "View Thesis",
+    showGithubIcon: false,
     liveLink: "#"
   },
   {
@@ -93,6 +99,8 @@ export const projects = [
     technologies: ["C++", "Nvidia CUDA", "Python", "JavaScript"],
     image: findImage('project_4'),
     repoLink: "https://github.com/stars/veersenjadhav/lists/advanced-computational-labs",
+    repoButtonText: "GitHub",
+    showGithubIcon: true,
     liveLink: "#"
   }
 ];
