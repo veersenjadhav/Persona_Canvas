@@ -107,34 +107,40 @@ export const projects = [
 
 export const blogs = [
   {
-    title: "The Art of Clean Code",
-    description: "Exploring the principles of writing clean, readable, and maintainable code in modern software development.",
+    title: "Unlocking the Power of Parallelism: A Deep Dive into PLINQ",
+    description: "Enhance Your C# Data Processing with Parallel LINQ for Superior Performance and Simplicity.",
     image: findImage('blog_1'),
-    link: "#"
+    link: "https://medium.com/@veersenjadhav/unlocking-the-power-of-parallelism-a-deep-dive-into-plinq-da514c970df0"
   },
   {
-    title: "A Deep Dive into React Hooks",
-    description: "A comprehensive guide to understanding and mastering React Hooks for more efficient and powerful components.",
+    title: "Why Relative Sizing is NOT About Hours: Understanding True Story Point Estimation",
+    description: "Based on my experience in SAFe Agile world",
     image: findImage('blog_2'),
-    link: "#"
+    link: "https://medium.com/@veersenjadhav/why-relative-sizing-is-not-about-hours-understanding-true-story-point-estimation-f8865731d170"
   },
   {
-    title: "UI vs. UX: A Developer's Guide",
-    description: "Demystifying the relationship between User Interface and User Experience from a developer's perspective.",
+    title: "The History of Evolution of Graphics Cards (GPUs)",
+    description: "Graphics cards, also known as video cards or display adapters, are essential components in modern computing systems, responsible for rendering images, videos, and animations on a computer screen.",
     image: findImage('blog_3'),
-    link: "#"
+    link: "https://medium.com/@veersenjadhav/the-history-of-evolution-of-graphics-cards-gpus-89f1d5354d78"
   },
   {
-    title: "Mastering TypeScript",
-    description: "Tips and tricks for leveraging TypeScript to build robust, type-safe applications at scale.",
+    title: "13th Gen Intel Processors: A Comprehensive Analysis",
+    description: "Intel Thread Director: Enhancing Workload Management & The Future of Gaming and Productivity with 13th Gen Intel CPUs.",
     image: findImage('blog_4'),
-    link: "#"
+    link: "https://medium.com/@veersenjadhav/13th-gen-intel-processors-a-comprehensive-analysis-8ec37e1c524"
   },
   {
-    title: "The Lens: A Photographer's Journal",
-    description: "A personal blog sharing stories and techniques behind my favorite photographs.",
+    title: "Electric Cars More Harmful Than Conventional & Hybrid Cars: IIT Kanpur Study",
+    description: "A recent study by the Indian Institute of Technology (IIT) Kanpur has found that electric vehicles may actually be more harmful to the environment than conventional and hybrid cars.",
     image: findImage('blog_5'),
-    link: "#"
+    link: "https://medium.com/@veersenjadhav/electric-cars-more-harmful-than-conventional-hybrid-cars-iit-kanpur-study-900b447ce7c5"
+  },
+  {
+    title: "Accelerating Data Centers with NVIDIA DPUs: Power Efficiency and Performance Boost",
+    description: "Harness the Power of Data Processing Units (DPUs) for Enhanced Data Processing, Networking, Security, and Power Efficiency.",
+    image: findImage('blog_6'),
+    link: "https://medium.com/@veersenjadhav/accelerating-data-centers-with-nvidia-dpus-power-efficiency-and-performance-boost-8f9b7335339d"
   }
 ];
 
