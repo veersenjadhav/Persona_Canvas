@@ -227,4 +227,7 @@ export const galleryImages = [
   findImage('gallery_4'),
   findImage('gallery_5'),
   findImage('gallery_6'),
+  findImage('gallery_7'),
+  findImage('gallery_8'),
+  findImage('gallery_9'),
 ];

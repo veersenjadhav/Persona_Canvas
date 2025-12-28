@@ -32,39 +32,57 @@
     },
     {
       "id": "gallery_1",
-      "description": "A dramatic landscape photo of mountains at sunset.",
-      "imageUrl": "https://images.unsplash.com/photo-1603657523988-76184975d205?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb3VudGFpbiUyMHN1bnNldHxlbnwwfHx8fDE3NjUzNTA4Njh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "mountain sunset"
+      "description": "Western Ghats Ascent",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1PinKpBCk3fFKm5itHA0kbA-o7Q_YnU7e=s1000",
+      "imageHint": "Western Ghats Ascent"
     },
     {
       "id": "gallery_2",
-      "description": "A black and white photo of a city street.",
-      "imageUrl": "https://images.unsplash.com/photo-1549654747-1fe362f45d7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2l0eSUyMHN0cmVldHxlbnwwfHx8fDE3NjUzMDE3NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "city street"
+      "description": "Stream Flow and Silk Water",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1Jmods6WO5z5goS9Asi6bpSWHntainKis=s1000",
+      "imageHint": "Stream Flow and Silk Water"
     },
     {
       "id": "gallery_3",
-      "description": "A macro shot of a flower with water droplets.",
-      "imageUrl": "https://images.unsplash.com/photo-1632736505270-a7a456a9e6ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmbG93ZXIlMjBtYWNyb3xlbnwwfHx8fDE3NjUyNzg3Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "flower macro"
+      "description": "Lake Serenity at Dusk",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1_6NX9t5W3euqV5mv9kYU6YYflodSaAE5=s1000",
+      "imageHint": "Lake Serenity at Dusk"
     },
     {
       "id": "gallery_4",
-      "description": "A long exposure shot of a coastline with misty water.",
-      "imageUrl": "https://images.unsplash.com/photo-1651755199582-206ea3a5fc4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtaXN0eSUyMGNvYXN0bGluZXxlbnwwfHx8fDE3NjUzNTMwNTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "misty coastline"
+      "description": "Framed View of the Konark Sun Temple",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1gV1KZXz8cEki4yfehe-FEcsbbQYvrI49=s1000",
+      "imageHint": "Framed View of the Konark Sun Temple"
     },
     {
       "id": "gallery_5",
-      "description": "An architectural photo of a modern building with sharp lines.",
-      "imageUrl": "https://images.unsplash.com/photo-1574848296471-28f79a036f79?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzY1Mjk1NDA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "modern architecture"
+      "description": "Gateway to the Konark Sun Temple",
+      "imageUrl": "https://lh3.googleusercontent.com/d/17IRDV75Tl_hU_YAz1ej7LMCAvFlwd2lA=s1000",
+      "imageHint": "Gateway to the Konark Sun Temple"
     },
     {
       "id": "gallery_6",
-      "description": "A portrait of a person with interesting lighting.",
-      "imageUrl": "https://images.unsplash.com/photo-1662894162384-e2cfd96f8527?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkcmFtYXRpYyUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NTI2OTg0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "dramatic portrait"
+      "description": "Konark Sun Temple: A Stone Marvel",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1SFXC3mMWFa7Qrl8ijwF2zqE0NwdyMovO=s1000",
+      "imageHint": "Konark Sun Temple: A Stone Marvel"
+    },
+    {
+      "id": "gallery_7",
+      "description": "Konark: The Standing Ancient Guard",
+      "imageUrl": "https://lh3.googleusercontent.com/d/18O3j8uqT6eCPu7tZCxbOgvNa7YMfgmH7=s1000",
+      "imageHint": "Konark: The Standing Ancient Guard"
+    },
+    {
+      "id": "gallery_8",
+      "description": "The Wheel of Konark: An Ancient Architecture",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1SVZvKR29Jko-PH_NR46DEfFlDvS3IRAW=s1000",
+      "imageHint": "The Wheel of Konark: An Ancient Architecture"
+    },
+    {
+      "id": "gallery_9",
+      "description": "The Fury of the Waves",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1lo_bYNRLr3OgCWq08Egb4LrLQZ7ljQR-=s1000",
+      "imageHint": "The Fury of the Waves"
     },
     {
       "id": "blog_1",
