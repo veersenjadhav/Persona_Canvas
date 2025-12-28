@@ -8,21 +8,27 @@
     },
     {
       "id": "project_1",
-      "description": "Screenshot of a modern web application dashboard.",
-      "imageUrl": "https://images.unsplash.com/photo-1758846946048-67de28f6bc8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3ZWIlMjBkYXNoYm9hcmR8ZW58MHx8fHwxNzY1MjcyNzUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "web dashboard"
+      "description": "Neospin Product",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1f4m8npt_z6NfxuPQRJdJxnW57LkVULtO=s1000",
+      "imageHint": "Neospin Product"
     },
     {
       "id": "project_2",
-      "description": "Code on a screen with graphs in the background.",
-      "imageUrl": "https://images.unsplash.com/photo-1545987796-200677ee1011?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkYXRhJTIwYW5hbHl0aWNzfGVufDB8fHx8MTc2NTMwODY2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "data analytics"
+      "description": "Persona Canvas",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1vrz6SdGQSEFgOU86xtJ24Jy8GL9jr9PJ=s1000",
+      "imageHint": "Persona Canvas"
     },
     {
       "id": "project_3",
-      "description": "A mobile application interface for social networking.",
-      "imageUrl": "https://images.unsplash.com/photo-1691073112675-9685bc6779bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bW9iaWxlJTIwYXBwbGljYXRpb258ZW58MHx8fHwxNzY1MzUzMDU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "mobile application"
+      "description": "High Performance Computing",
+      "imageUrl": "https://lh3.googleusercontent.com/d/13D-SpZQlE5yE99gi3v1IuN-cm6kpCoyi=s1000",
+      "imageHint": "High Performance Computing"
+    },
+    {
+      "id": "project_4",
+      "description": "Advanced Computing Lab.",
+      "imageUrl": "https://lh3.googleusercontent.com/d/16yIVz31YQ_x2ctMTXI_nV5aAtxoUD2G_=s1000",
+      "imageHint": "Advanced Computing Lab"
     },
     {
       "id": "gallery_1",

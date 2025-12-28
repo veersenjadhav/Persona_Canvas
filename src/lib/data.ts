@@ -64,28 +64,36 @@ export const workExperience = [
 
 export const projects = [
   {
-    title: "Project Nova",
-    description: "A collaborative project management tool designed for remote teams, featuring real-time updates and task tracking.",
-    technologies: ["Next.js", "Firebase", "Tailwind CSS"],
+    title: "Neospin : Public Sector Pension Modernization Initiative",
+    description: "Contributed to the development and implementation of Neospin product, a high-scale pension administration system. I worked on streamlining complex retirement workflows, including automated benefit calculations, benefit payrolls and Line-of-Business portals. The product focused on replacing aging legacy systems with a modern, browser-based solution to improve operational efficiency and costs for large-scale pension funds.",
+    technologies: [".Net Core", "C#", "Backend Development", "SQL", "Azure DevOps", "SAFe Agile Framework"],
     image: findImage('project_1'),
-    repoLink: "https://github.com/veejay/nova",
+    repoLink: "https://www.sagitec.com/neospin/pension-administration-software",
     liveLink: "#"
   },
   {
-    title: "DataViz",
-    description: "A data visualization library for creating interactive charts and graphs with a simple and intuitive API.",
-    technologies: ["D3.js", "TypeScript", "React"],
+    title: "Persona Canvas - Personal Portfolio",
+    description: "This is a personal portfolio website built with Next.js, React, and Tailwind CSS and also with help of Gen-AI tools, hosted using Google Cloud platform to experience CI/CD pipelines. It's designed to showcase professional experience, projects, academic background, and personal interests like photography.",
+    technologies: ["Next.js", "Google Cloud", "Tailwind CSS"],
     image: findImage('project_2'),
-    repoLink: "https://github.com/veejay/dataviz",
+    repoLink: "https://github.com/veersenjadhav/Persona_Canvas",
     liveLink: "#"
   },
   {
-    title: "ConnectApp",
-    description: "A mobile-first social networking application concept with a focus on privacy and user control.",
-    technologies: ["React Native", "GraphQL", "PostgreSQL"],
+    title: "Scaling Up Machine Learning Algorithm for Rule Based Log Engine : A Parallel Approach with OpenMP & CUDA",
+    description: "As part of my M. Tech. studies, in this internship project collaborated with DELL EMC, I introduced ideas of a massively Parallel, Novel Algorithm, which is an essential step in learning Gradient Boosted Decision Tree (GBDT) and random forests for accelerating the decision tree construction procedure for rulebased log analysis engines on CPU and GPU.",
+    technologies: ["C++", "Nvidia CUDA", "Python", "Machine Learning", "High Performance Computing"],
     image: findImage('project_3'),
-    repoLink: "https://github.com/veejay/connectapp",
-    liveLink: null
+    repoLink: "https://drive.google.com/file/d/1v57YL4qiuAoH2zHfagEMRld8kiyZpzZz/view?usp=sharing",
+    liveLink: "#"
+  },
+  {
+    title: "Advanced Computational Labs",
+    description: "A deep dive into the world of algorithms, featuring everything from neural networks to optimized data normalization techniques. These projects highlight my skills in optimizing performance and implementing heavy mathematical theories into working code.",
+    technologies: ["C++", "Nvidia CUDA", "Python", "JavaScript"],
+    image: findImage('project_4'),
+    repoLink: "https://github.com/stars/veersenjadhav/lists/advanced-computational-labs",
+    liveLink: "#"
   }
 ];
 
