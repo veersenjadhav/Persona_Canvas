@@ -11,8 +11,14 @@ export function Gallery() {
     <div className="flex overflow-x-auto space-x-4 pb-4">
       {images.map((image, index) => (
         <div key={index} className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/3">
-          <div className="p-1">
-            <div className="relative group overflow-hidden rounded-lg shadow-lg aspect-[4/3]">
+          <a
+            href={image.imageUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`View image: ${image.description}`}
+            className="block p-1 group"
+          >
+            <div className="relative overflow-hidden rounded-lg shadow-lg aspect-[4/3]">
               <Image
                   src={image.imageUrl}
                   alt={image.description}
@@ -26,7 +32,7 @@ export function Gallery() {
                   <p className="text-sm font-light italic opacity-80">{image.description}</p>
               </div>
             </div>
-          </div>
+          </a>
         </div>
       ))}
     </div>
