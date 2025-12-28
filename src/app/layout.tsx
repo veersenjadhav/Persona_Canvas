@@ -4,7 +4,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'Persona Canvas',
+  title: 'Veersen Jadhav: Persona Canvas',
   description: 'My Professional CV and Bio',
 };
 
