@@ -16,7 +16,7 @@ export function Gallery() {
 
   return (
     <AnimatedSection id="gallery">
-      <div className="flex flex-col sm:flex-row justify-between items-center mb-8 gap-4">
+      <div className="flex flex-col justify-between items-center mb-8 gap-4">
         <div className="text-center sm:text-left">
           <h2 className="text-3xl md:text-4xl font-headline font-bold text-primary">
             Photographic Gallery
