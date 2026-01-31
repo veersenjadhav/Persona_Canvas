@@ -26,7 +26,7 @@ export function Experience() {
                 "pl-10 md:grid md:grid-cols-2 md:gap-8",
               )}>
                 <div className={cn(
-                  index % 2 === 0 ? 'md:text-right md:pr-8' : 'md:order-2 md:text-left md:pl-8'
+                  index % 2 === 0 ? 'md:text-right md:pr-8' : 'md:order-2 md:text-left'
                 )}>
                   <h3 className="text-xl font-headline font-semibold">{job.role}</h3>
                   <p className="font-medium text-accent">{job.company}</p>
