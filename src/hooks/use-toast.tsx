@@ -3,21 +3,20 @@
 // Inspired by react-hot-toast library
 import * as React from "react"
 
-type ToasterToast = ToastProps & {
-  id: string
-  title?: React.ReactNode
-  description?: React.ReactNode
-  action?: React.ReactElement<typeof ToastAction>
-}
+import type {
+  ToastActionElement,
+  ToastProps,
+} from "@/components/ui/toast"
 
 const TOAST_LIMIT = 1
 const TOAST_REMOVE_DELAY = 1000000
 
-type ToasterProps = React.ComponentProps<typeof Toaster>
-
-type ToastProps = React.ComponentProps<typeof Toast>
-
-type ToastActionElement = React.ReactElement<typeof ToastAction>
+type ToasterToast = ToastProps & {
+  id: string
+  title?: React.ReactNode
+  description?: React.ReactNode
+  action?: ToastActionElement
+}
 
 interface State {
   toasts: ToasterToast[]
@@ -174,7 +173,7 @@ function toast(props: Omit<ToasterToast, "id">) {
       ...props,
       id,
       open: true,
-      onOpenChange: (open) => {
+      onOpenChange: (open: boolean) => {
         if (!open) dismiss()
       },
     },

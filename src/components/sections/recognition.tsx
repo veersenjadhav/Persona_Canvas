@@ -28,7 +28,7 @@ export function Recognition() {
                       className="object-contain"
                     />
                   ) : (
-                    <rec.icon />
+                    <Award className="h-6 w-6" />
                   )}
                 </div>
               </div>
